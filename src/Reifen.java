@@ -1,5 +1,14 @@
-/**
- * Created by Cla on 05.11.2016.
- */
 public class Reifen {
+    /** Reifendruck */
+    private double druck;
+
+    /** Konstruktor */
+    public Reifen (double luftdruck) {
+        druck = luftdruck;
+    }
+
+    /** Zugriffsfunktion fuer Reifendruck */
+    public double aktuellerDruck() {
+        return druck;
+    }
 }
